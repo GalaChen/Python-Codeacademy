@@ -40,6 +40,9 @@ for variable in list_name:
   # Do stuff!
 #如果需要调用list中的每个元素，可以用for循环完成
 #注意此时的variable是list中的每一个元素，而非index
+#另一种方式
+for i in range(len(list)):
+  print list[i]
 
 animals = ["cat", "ant", "bat"]
 animals.sort()
