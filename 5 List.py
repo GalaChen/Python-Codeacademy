@@ -14,6 +14,8 @@ list_name.append(sth)
 #list的长度并不固定，通过上述语句可以随时向list添加内容
 list_name.remove(sth)
 #删除list中的某些内容
+list.name.pop(index)
+#以index的方式删除list的某个元素，并能返回该元素
 
 letters = ['a', 'b', 'c', 'd', 'e']
 slice = letters[1:3]
